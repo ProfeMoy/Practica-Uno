@@ -1,2 +1,2 @@
 # Practica Uno
- Introducción a Git usando HTML y CSS by Moy Ibáñez
+ Introducción a Git usando HTML y CSS by Moy Ibáñez :)
