@@ -13,6 +13,7 @@ html {
 
 header {
     height: auto;
+    width: 100vw;
     background-color: black;
     color: white;
     display: flex;
