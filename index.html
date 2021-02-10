@@ -5,26 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <title>Practica uno</title>
 </head>
 
 <body>
-    <header>
-        <h1>Página de Moy</h1>
+    <header id="home">
+        <div id="siteName">
+            <h1>Página de Moy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutMe">About</a>
+                </li>
+                <li>
+                    <a href="#portafolio">Portafolio</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ProfeMoy" target="blank">GitHub</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <article>
-        <h2>¿Cómo me llamo y cómo me gusta que me digan</h2>
-        <p>Me llamo Moisés Ináñez, y me gusta que me digan Moy</p>
 
-        <h2>¿De dónde soy?</h2>
-        <p>Soy de Aguascalientes, México</p>
+    <section id="wellcome" class="box">
+        <article id="aboutMe">
 
-        <h2>¿Cuáles son mis hobbies?</h2>
-        <p>Me guta ver series y películas, jugar videojuegos, tocar y escuchar un poco de música y aprender cosas nuevas</p>
+            <div id="profilePic">
+                <img src="assets/img/meDistor.png" alt="MoyIbanez" width="500px" height="auto">
+            </div>
 
-        <h2>¿Un dato curioso mío?</h2>
-        <p>Soy muy distraído y me gustan los parros y los mapaches</p>
-    </article>
+            <h3>¿Cómo me llamo y cómo me gusta que me digan</h3>
+            <p>Me llamo Moisés Ináñez, y me gusta que me digan Moy</p>
+
+            <h3>¿De dónde soy?</h3>
+            <p>Soy de Aguascalientes, México</p>
+
+            <h3>¿Cuáles son mis hobbies?</h3>
+            <p>Me guta ver series y películas, jugar videojuegos, tocar y escuchar un poco de música y aprender cosas nuevas</p>
+
+            <h3>¿Un dato curioso mío?</h3>
+            <p>Soy muy distraído y me gustan los parros y los mapaches</p>
+        </article>
+    </section>
+
+    <main>
+
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem odit aperiam, consectetur ipsa nihil reprehenderit optio? Illum cupiditate, odit non quisquam fugit laborum eos?</p>
+        </section>
+
+
+        <section id="skillSet">
+            <h2>Skill Set</h2>
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <td><b>#</b></td>
+                        <td><b>Skill</b></td>
+                        <td><b>Conocimiento</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML</td>
+                        <td>*****</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSS</td>
+                        <td>*****</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
