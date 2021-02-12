@@ -12,6 +12,7 @@ html {
 }
 
 header {
+    width: 100%;
     height: auto;
     background-color: black;
     color: white;
@@ -48,6 +49,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 section {
@@ -65,3 +67,44 @@ section {
 
 
 /*Afectando ID*/
+
+#wellcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#profilePic {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    background-image: url(../img/profileBG.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.9);
+}
